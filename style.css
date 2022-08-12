@@ -14,6 +14,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(8, 12, 41);
     background-color: aqua;
+    display: inline-block;
     border-radius: 20px;
     /* margin: 50px; */
     padding: 20px;
@@ -22,7 +23,7 @@ body {
     /* left: 20px; */
     opacity: .5;
     justify-self: flex-start;
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
     margin-top: 20px;
 }
 
@@ -73,4 +74,11 @@ img {
 .container >div:last-of-type {
     display: flex;
     align-items: center;
+}
+
+.win {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: salmon;
+    border: 10px solid salmon;
 }
