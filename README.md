@@ -17,4 +17,16 @@ https://user-images.githubusercontent.com/108999141/183444368-cfb7d789-b03d-4b84
 -Game Page
 
 1) Welcome Page
-https://imgur.com/a/9jDU6fE
+![Alt text](https://i.imgur.com/uB8CqdF.jpeg)
+
+2) Start Game
+![Alt text](https://i.imgur.com/DKAepX1.jpeg)
+
+3) Draw
+![Alt text](https://i.imgur.com/2S42O5Q.jpeg)
+
+4) Player Win Dealer Lose!
+![Alt text](https://i.imgur.com/2udpfzv.png)
+
+5) Player Lose Dealer Win!
+6) ![Alt text](https://i.imgur.com/ykfPvTz.jpg)
