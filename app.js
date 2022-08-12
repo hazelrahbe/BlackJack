@@ -2,6 +2,8 @@ let suits = ['diamonds', 'hearts', 'clubs', 'spades'];
 let points = ['K', 'Q', 'J', 'A', 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let playerHand = []
 let dealerHand = []
+let ace  = 0;
+let decorAce = 0;
 
 let deck = [];
 function deckTable() {
@@ -124,9 +126,12 @@ function skipMe() {
 stayBtn.addEventListener('click', skipMe)
 
 function checkPoints() {
-    if ( calculateTotal(playerHand) === 21 || calculateTotal(dealerHand) === 21) {
-        htmlWin.innerHTML = "BlackJack!";
+    if ( calculateTotal(playerHand) === 21) {
+        htmlWin.innerHTML = "BlackJack! You Win!";
         // console.log(`Player hand: ${playerHand}, dealer hand: ${dealerHand}`)
+    }
+    else if (calculateTotal(dealerHand) === 21) {
+        html
     }
     else if (calculateTotal(dealerHand) > 21 ) {
         htmlWin.innerHTML = "You Win! Dealer Lose!"
